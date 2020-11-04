@@ -1,0 +1,17 @@
+[Desktop Entry]
+Name=System Util Monitor
+Comment=Plasmoid for monitoring memory usage and CPU and GPU temps, clocks and util
+
+Type=Service
+Icon=battery
+X-KDE-ServiceTypes=Plasma/Applet
+
+X-Plasma-API=declarativeappletscript
+X-Plasma-MainScript=ui/main.qml
+
+X-KDE-PluginInfo-Author=Kristian Otte
+X-KDE-PluginInfo-Email=otte@kotte.dk
+X-KDE-PluginInfo-Name=org.kde.hardwaremonitor
+X-KDE-PluginInfo-Version=0.1
+X-KDE-PluginInfo-Website=https://github.com/otte8/plasma-applet-hardware-monitor
+X-KDE-PluginInfo-Category=System Information
